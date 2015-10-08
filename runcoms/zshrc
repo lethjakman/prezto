@@ -187,7 +187,11 @@ fi
 
 source ~/.fzf.zsh
 
-# For vim theme, not sure if necessary
-#source ~/.vim/vim-addons/gruvbox/gruvbox_256palette_osx.sh
-# Support 256 color
-#export TERM=screen-256color
+source /opt/boxen/env.sh
+
+export LANG=en_US.UTF-8
+export LC_ALL=en_US.UTF-8
+export TERM=xterm-256color
+
+export PATH=$HOME/toolbox/bin:$PATH
+export PATH=$HOME/.local/bin/:$PATH
