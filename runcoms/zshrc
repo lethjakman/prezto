@@ -165,7 +165,6 @@ export JAVA_HOME=$(/usr/libexec/java_home)
 export REDIS_ENV="development"
 export GOPATH=$HOME/go
 
-export PAGER=/usr/local/bin/vimpager
 alias less=$PAGER
 alias zless=$PAGER
 bindkey -v
